@@ -69,7 +69,7 @@ Use three machine learning models to predict stocks:
 - Quadratic Discriminant Analysis would be similar to Simple Linear Analysis, except that the model allowed polynomial (e.g: x squared) and would produce curves.
 ### K Nearest Neighbor (KNN)
 - This KNN uses feature similarity to predict values of data points. This ensures that the new point assigned is similar to the points in the data set.
-
+- To find out similarity, we will extract the points to release the minimum distance (e.g: Euclidean Distance).
 ### Pre-processing & Cross Validation
 - Drop missing value
 - Separating the label here, we want to predict the AdjClose
